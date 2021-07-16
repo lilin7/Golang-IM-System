@@ -67,6 +67,7 @@ func (this *Server) Handler(conn net.Conn) {
 	this.mapLock.Unlock()
 
 	//broadcast to user a success msg
+	fmt.Println("[" + user.Addr + "]" + user.Name + ":" + "User is online!")
 	this.BroadCast(user, "User is online!")
 }
 
