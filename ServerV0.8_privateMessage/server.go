@@ -74,7 +74,7 @@ func (this *Server) Handler(conn net.Conn) {
 			n, err := conn.Read(buf) //get user input, n is the length of msg
 			if n==0 { //if there is no msg sent by a user, means this user is offline
 				user.Offline() //delete from usermap, broadcast
-				fmt.Println("[" + user.Addr + "]" + user.Name + "This user is offline.")
+				fmt.Println("[" + user.Addr + "]" + user.Name + " This user is offline.")
 				return
 			}
 

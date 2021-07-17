@@ -40,7 +40,7 @@ func (this *User) Online()  {
 	this.server.mapLock.Unlock()
 
 	//broadcast to user a success msg
-	this.server.BroadCast(this, "This user is online!")
+	this.server.BroadCast(this, " This user is online!")
 }
 
 func (this *User) Offline()  {
