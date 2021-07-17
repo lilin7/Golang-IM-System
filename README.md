@@ -3,9 +3,6 @@
 An instant messaging system created with Golang, including both server side and client side, using Agile Software Development Methodology.
 
 
-I made it in 3 days to improve my coding skills with Golang!
-
-
 Features:
 1. Broadcast user online and offline message
 2. Query online user list
