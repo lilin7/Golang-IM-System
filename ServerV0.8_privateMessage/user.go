@@ -78,7 +78,7 @@ func (this *User) ProcessMessage(msg string)  {
 			this.server.mapLock.Unlock()
 
 			this.Name = newName
-			this.SendMessage("Your name has been updated to \" " + newName + "\".")
+			this.SendMessage("Your name has been updated to \"" + newName + "\".")
 		}
 
 	} else if len(msg)>3 && msg[:3] == "to|"{ //private message
