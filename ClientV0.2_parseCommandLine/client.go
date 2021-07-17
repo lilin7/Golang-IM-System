@@ -7,16 +7,16 @@ import (
 )
 
 type Client struct {
-	ServerIp   string
+	ServerIp string
 	ServerPort int
-	Name       string
-	conn       net.Conn
+	Name string
+	conn net.Conn
 }
 
 func NewClient(serverIp string, serverPort int) *Client {
 	// instantiate a client object
 	client := &Client{
-		ServerIp:   serverIp,
+		ServerIp: serverIp,
 		ServerPort: serverPort,
 	}
 
