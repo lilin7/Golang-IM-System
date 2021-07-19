@@ -1,6 +1,6 @@
 # Golang-IM-System
  
-An instant messaging system created with Golang, including both server side and client side, using Agile Software Development Methodology.
+An instant messaging system created with Golang, communicate using TCP socket, including both server side and client side, using Agile Software Development Methodology.
 
 
 Features:
@@ -14,3 +14,8 @@ Features:
 
 
 ![image](https://user-images.githubusercontent.com/36003947/126026357-a6d9bbab-8c59-49e1-a916-cf248e072a68.png)
+
+
+Development log:
+1. Developed Server side first, used netcat as client side
+2. Developed Client side.
